@@ -60,7 +60,9 @@ fa-brands{
   font-size: 0.78rem;
   cursor: pointer;
 }
-
+.facebook i{
+  color:  #aaa;;
+}
 /* ===========================
    NAV
 =========================== */
