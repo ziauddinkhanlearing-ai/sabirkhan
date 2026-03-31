@@ -130,7 +130,31 @@ nav {
   /* background: #111; */
   display: block;
 }
+.achive{
+  color: var(--accent);
+}
+/* =========================
+  table section 
+ ===========================*/
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding:20px;
+ 
+  /* margin: 40px; */
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  border-radius: 59px;
+}
 /* ===========================
    HERO — Split Layout
 =========================== */
@@ -141,11 +165,16 @@ nav {
 }
 
 /* LEFT — Photo Slider */
-.hero-photos {
+.hero-photos{
   position: relative;
   overflow: hidden;
-  background: #1a1a1a;
+  background: #1f1f1f;
+  
 }
+.hero-photos img{
+background-color: white;
+
+} 
 
 .hero-photos img {
   width: 100%;
