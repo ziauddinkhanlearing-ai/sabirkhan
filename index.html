@@ -7,7 +7,11 @@
 <link rel="icon" type="image/x-icon" href="./picture/favicon/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <script src="https://unpkg.com/@studio-freight/lenis@1.0.0/bundled/lenis.min.js"></script>
  <style>
+  html {
+  scroll-behavior: auto;
+}
 .icon{
 display: flex;gap:25px
 }
@@ -20,10 +24,12 @@ display: flex;gap:25px
     text-align: justify;
   }
 }
+
+
  </style>
 
 </head>
-<body>
+<body >
 
   <!-- TOPBAR -->
   <div class="topbar">
@@ -52,7 +58,7 @@ display: flex;gap:25px
   </div>
 
   <!-- NAV -->
-  <nav>
+  <nav >
     <div class="nav-logo"id="title">Sabir <span>Kaker</span></div>
     <ul class="nav-links">
       <li><a href="#photoBox">Home</a></li>
@@ -85,7 +91,7 @@ display: flex;gap:25px
       </div>
     </div>
 
-    <div class="hero-story">
+    <div class="hero-story" id="">
 
 
 
@@ -107,15 +113,15 @@ display: flex;gap:25px
         <p>Growing up in a rural area with limited opportunities, life was full of challenges from an early age. To support himself and his family, he started working as a shopkeeper, learning responsibility, discipline, and patience at a young age.</p>
         <p>Despite the hardships, Sabir carried a strong passion for martial arts, boxing, and kickboxing. With no proper facilities and after long working hours, he still pushed himself to train, driven by his dream to become stronger and compete.</p>
         <p>Through relentless effort, consistency, and belief in himself, Alhamdulillah, Sabir Kakar has now become a kickboxer representing Pakistan 🇵🇰 — a proud achievement not only for himself but for his village and community.</p>
-        <p>His journey is not just a story of success, but a message — that no matter where you come from, with determination, faith, and hard work, you can rise and achieve greatness</p>
+        <p id="About">His journey is not just a story of success, but a message — that no matter where you come from, with determination, faith, and hard work, you can rise and achieve greatness</p>
       </div>
     </div>
   </section>
 
   <!-- VIDEO STRIP -->
-  <div class="vid-strip" id="About">
-    <div class="vid-card">
-      <img src="./picture/CardPicTure/WhatsApp Image 2026-03-30 at 4.44.49 PM (2).jpeg" alt="Feature">
+  <div class="vid-strip" id="About" >
+    <div class="vid-card"><img src="./picture/CardPicTure/WhatsApp Image 2026-03-30 at 4.44.51 PM (1).jpeg" alt="Uzbekistan">
+      
       <div class="vid-lbl">Feature</div>
     </div>
     <div class="vid-card">
@@ -127,11 +133,11 @@ display: flex;gap:25px
       <div class="vid-lbl">PTV Sports</div>
     </div>
     <div class="vid-card">
-      <img src="https://www.nisarboxer.com/assets/images/vid-slanka.png" alt="Sri Lanka">
+      <img src="picture/CardPicTure/WhatsApp Image 2026-03-30 at 4.44.45 PM (1).jpeg" alt="Sri Lanka">
       <div class="vid-lbl">Sri Lanka</div>
     </div>
     <div class="vid-card">
-      <img src="https://www.nisarboxer.com/assets/images/vid-uzbekistan.png" alt="Uzbekistan">
+    <img src="./picture/CardPicTure/WhatsApp Image 2026-03-30 at 4.44.49 PM (2).jpeg" alt="Feature">
       <div class="vid-lbl">Uzbekistan</div>
     </div>
   </div>
@@ -141,7 +147,7 @@ display: flex;gap:25px
         TAble Scetions
         ==================== -->
 
-  <div class="story2"id="Achievements"id="Achievements">
+  <div class="story2"id="Achievements">
     <div class="story-name" id="title" style="text-align: center;padding: 10px;margin: 10px;">Achievement</div>
     <!-- <h1">Achievement</h1> -->
 <table>
@@ -149,39 +155,35 @@ display: flex;gap:25px
     <th>Year</th>
     <th>Championship</th>
     <th>Country</th> 
-    <th>Location</th> 
+    <th>position</th> 
+  </tr> 
+  <tr>
+    <td>2021</td>
+    <td>International Championship</td>
+    <td>Dubai</td>
+    <td>🥇 Gold Medal</td>
   </tr>
+   <tr>
+    <td>2022</td>
+    <td>Asia Championship mma kickboxing</td>
+    <td>Karaganda Kazakhstan </td>
+    <td> 🥈 Silver medal</td>
+  </tr> 
   <tr>
     <td>2023</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-     <td>Afghanistan</td>
+    <td>World Muay Thai Chempionship</td>
+    <td>Bangkok thailand</td>
+     <td> 🥇 Gold Medal </td>
   </tr>
-  <tr>
-    <td>2023</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-    <td>Mexico</td>
-  </tr>
+  
+ 
   <tr>
     <td>2024</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-    <td>Austria</td>
+    <td>WGC</td>
+    <td>Afghanistan</td>
+    <td>🥇 Gold Medal</td>
   </tr>
-  <tr>
-    <td>2025</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>2025</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-    <td>Canada</td>
-  </tr>
- 
+
 </table>
 </div>
 
@@ -193,7 +195,7 @@ display: flex;gap:25px
     <p>Driven by passion and a hunger to grow, Sabir mastered multiple martial arts disciplines, including Kickboxing and Muay Thai, shaping himself into a complete and versatile fighter.</p>
     <div class="dojo-block">
       <div class="dojo-logo">SABIR</div>
-      <div class="dojo-text">
+      <div class="dojo-text" >
     Through relentless hard work and dedication, Sabir achieved remarkable success on international platforms. He proudly represented Pakistan and won gold medals in Afghanistan, Russia, and Kazakhstan, bringing honor and recognition to his country.
       </div>
     </div>
@@ -208,7 +210,7 @@ display: flex;gap:25px
   </div>
 
   <!-- CONTACT -->
-  <div class="contact-wrap"id="Contacts">
+  <div class="contact-wrap"id="Contacts" >
     <div class="contact-info">
       <h2>Contact</h2>
       <div class="c-detail">✉ Sabirkakar3000@gmail.com</div>
@@ -237,6 +239,21 @@ display: flex;gap:25px
   <footer>
     <span>© 2026 NisarBoxer.com. All Rights Reserved.</span>
   </footer>
+  
+<script>
+
+const lenis = new Lenis({
+  duration: 1.2,
+  smooth: true
+});
+
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+</script>
 
   <script src="script.js"></script>
 </body>
