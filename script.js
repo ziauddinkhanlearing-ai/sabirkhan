@@ -74,6 +74,25 @@ hamburger.addEventListener('click', () => {
   navLinks.style.zIndex = '998';
 });
 
+//   hamburger.addEventListener('click', () => {
+//     if(hamburger){
+//   const isOpen = navLinks.style.display === 'flex';
+//   navLinks.style.display = isOpen ? 'none' : 'flex';
+//   navLinks.style.flexDirection = 'column';
+//   navLinks.style.position = 'absolute';
+//   navLinks.style.top = '60px';
+//   navLinks.style.left = '0';
+//   navLinks.style.right = '0';
+//   navLinks.style.background = '#fff';
+//   navLinks.style.padding = '1rem 2rem';
+//   navLinks.style.borderBottom = '1px solid #e8e4dc';
+//   navLinks.style.zIndex = '998';
+//   }{
+//   hamburger == ""
+// }
+
+// });
+  
 
 // ===========================
 //   CONTACT FORM
